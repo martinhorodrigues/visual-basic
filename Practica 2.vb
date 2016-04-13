@@ -59,6 +59,26 @@ Module Module1
         Return Math.DivRem(Numero1, Numero2, Res)
     End Function
 
+    Function exp(ByVal Numero1 As Double) As Double
+        Return Math.Exp(Numero1)
+    End Function
+
+    Function floor(ByVal Numero1 As Double) As Double
+        Return Math.Floor(Numero1)
+    End Function
+
+    Function ieee(ByVal Numero1 As Double, ByVal Numero2 As Double) As Double
+        Return Math.IEEERemainder(Numero1, Numero2)
+    End Function
+
+    Function log(ByVal Numero1 As Double) As Double
+        Return Math.Log(Numero1)
+    End Function
+
+    Function log10(ByVal Numero1 As Double) As Double
+        Return Math.Log10(Numero1)
+    End Function
+
     Sub Main()
 
         Dim Res As Double
@@ -132,6 +152,31 @@ Module Module1
                     Dim X, Y As Double
                     Ingresar2(X, Y)
                     Ret(divrem(X, Y, Res))
+
+                Case 11
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(exp(X))
+
+                Case 12
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(floor(X))
+
+                Case 13
+                    Dim X, Y As Double
+                    Ingresar2(X, Y)
+                    Ret(ieee(X, Y))
+
+                Case 14
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(log(X))
+
+                Case 15
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(log10(X))
 
             End Select
 
