@@ -1,0 +1,144 @@
+﻿Imports System.Math
+
+Module Module1
+    Sub Ingresar(ByRef X As Double)
+        Console.Write("Numero: ")
+        X = Console.ReadLine
+    End Sub
+
+    Sub Ingresar2(ByRef X As Double, ByRef Y As Double)
+        Console.Write("Numero X: ")
+        X = Console.ReadLine
+
+        Console.Write("Numero Y: ")
+        Y = Console.ReadLine
+    End Sub
+
+    Sub Ret(ByRef Ret As Double)
+        Console.Write("Resultado: {0}", Ret)
+        Console.ReadLine()
+    End Sub
+
+    Function abs(ByVal Numero As Double) As Double
+        Return Math.Abs(Numero)
+    End Function
+
+    Function acos(ByVal Numero As Double) As Double
+        Return Math.Acos(Numero)
+    End Function
+
+    Function asin(ByVal Numero As Double) As Double
+        Return Math.Asin(Numero)
+    End Function
+
+    Function atan(ByVal Numero As Double) As Double
+        Return Math.Atan(Numero)
+    End Function
+
+    Function atan2(ByVal Numero1 As Double, ByVal Numero2 As Double) As Double
+        Return Math.Atan2(Numero1, Numero2)
+    End Function
+
+    Function bigmul(ByVal Numero1 As Double, ByVal Numero2 As Double) As Double
+        Return Math.BigMul(Numero1, Numero2)
+    End Function
+
+    Function ceiling(ByVal Numero1 As Double) As Double
+        Return Math.Ceiling(Numero1)
+    End Function
+
+    Function cos(ByVal Numero1 As Double)
+        Return Math.Cos(Numero1)
+    End Function
+
+    Function cosh(ByVal Numero1 As Double)
+        Return Math.Cosh(Numero1)
+    End Function
+
+    Function divrem(ByVal Numero1 As Integer, ByVal Numero2 As Integer, ByRef Res As Integer) As Double
+        Return Math.DivRem(Numero1, Numero2, Res)
+    End Function
+
+    Sub Main()
+
+        Dim Res As Double
+        Dim opc As Integer
+        Dim ciclo As Boolean = True
+
+        Do
+            Console.Clear()
+            Console.WriteLine("1 - Abs" & vbTab & vbTab & "11 - Exp" & vbTab & vbTab & "21 - Sin")
+            Console.WriteLine("2 - Acos" & vbTab & "12 - Floor" & vbTab & vbTab & "22 - Sinh")
+            Console.WriteLine("3 - Asin" & vbTab & "13 - IEEERemainder" & vbTab & "23 - Sqrt")
+            Console.WriteLine("4 - Atan" & vbTab & "14 - Log" & vbTab & vbTab & "24 - Tan")
+            Console.WriteLine("5 - Atan2" & vbTab & "15 - Log10" & vbTab & vbTab & "25 - Tanh")
+            Console.WriteLine("6 - BigMul" & vbTab & "16 - Max")
+            Console.WriteLine("7 - Ceiling" & vbTab & "17 - Min")
+            Console.WriteLine("8 - Cos" & vbTab & vbTab & "18 - Pow")
+            Console.WriteLine("9 - Cosh" & vbTab & "19 - Round")
+            Console.WriteLine("10 - DivRem" & vbTab & "20 - Sign" & vbTab & vbTab & "0) Salir" & vbCrLf)
+
+            Console.Write("Opcion: ")
+            opc = Console.ReadLine
+            Console.WriteLine(vbCrLf)
+
+            Select Case opc
+                Case 1
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(abs(X))
+
+                Case 2
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(acos(X))
+
+                Case 3
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(asin(X))
+
+                Case 4
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(atan(X))
+
+                Case 5
+                    Dim X, Y As Double
+                    Ingresar2(X, Y)
+                    Ret(atan2(X, Y))
+
+                Case 6
+                    Dim X, Y As Double
+                    Ingresar2(X, Y)
+                    Ret(bigmul(X, Y))
+
+                Case 7
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(ceiling(X))
+
+                Case 8
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(cos(X))
+
+                Case 9
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(cosh(X))
+
+                Case 10
+                    Dim X, Y As Double
+                    Ingresar2(X, Y)
+                    Ret(divrem(X, Y, Res))
+
+            End Select
+
+            If opc = 0 Then
+                ciclo = False
+            End If
+        Loop While ciclo = True
+    End Sub
+
+End Module
