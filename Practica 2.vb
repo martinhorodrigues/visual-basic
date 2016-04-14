@@ -79,6 +79,46 @@ Module Module1
         Return Math.Log10(Numero1)
     End Function
 
+    Function max(ByVal Numero1 As Double, ByVal Numero2 As Double) As Double
+        Return Math.Max(Numero1, Numero2)
+    End Function
+
+    Function min(ByVal Numero1 As Double, ByVal Numero2 As Double) As Double
+        Return Math.Min(Numero1, Numero2)
+    End Function
+
+    Function pow(ByVal Numero1 As Double, ByVal Numero2 As Double) As Double
+        Return Math.Pow(Numero1, Numero2)
+    End Function
+
+    Function round(ByVal Numero1 As Double) As Double
+        Return Math.Round(Numero1)
+    End Function
+
+    Function sign(ByVal Numero1 As Double) As Double
+        Return Math.Sign(Numero1)
+    End Function
+
+    Function sin(ByVal Numero1 As Double) As Double
+        Return Math.Sin(Numero1)
+    End Function
+
+    Function sinh(ByVal Numero1 As Double) As Double
+        Return Math.Sinh(Numero1)
+    End Function
+
+    Function sqrt(ByVal Numero1 As Double) As Double
+        Return Math.Sqrt(Numero1)
+    End Function
+
+    Function tan(ByVal Numero1 As Double) As Double
+        Return Math.Tan(Numero1)
+    End Function
+
+    Function tanh(ByVal Numero1 As Double) As Double
+        Return Math.Tanh(Numero1)
+    End Function
+
     Sub Main()
 
         Dim Res As Double
@@ -178,6 +218,55 @@ Module Module1
                     Ingresar(X)
                     Ret(log10(X))
 
+                Case 16
+                    Dim X, Y As Double
+                    Ingresar2(X, Y)
+                    Ret(max(X, Y))
+
+                Case 17
+                    Dim X, Y As Double
+                    Ingresar2(X, Y)
+                    Ret(min(X, Y))
+
+                Case 18
+                    Dim X, Y As Double
+                    Ingresar2(X, Y)
+                    Ret(pow(X, Y))
+
+                Case 19
+                    Dim X, Y As Double
+                    Ingresar(X)
+                    Ret(round(X))
+
+                Case 20
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(sign(X))
+
+                Case 21
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(sin(X))
+
+                Case 22
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(sinh(X))
+
+                Case 23
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(sqrt(X))
+
+                Case 24
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(tan(X))
+
+                Case 25
+                    Dim X As Double
+                    Ingresar(X)
+                    Ret(tanh(X))
             End Select
 
             If opc = 0 Then
