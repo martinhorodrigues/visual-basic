@@ -1,0 +1,10 @@
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\bin\Debug\Ejercicio 3.exe.config
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\bin\Debug\Ejercicio 3.exe
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\bin\Debug\Ejercicio 3.pdb
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\bin\Debug\Ejercicio 3.xml
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\obj\Debug\Ejercicio 3.vbprojResolveAssemblyReference.cache
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\obj\Debug\Ejercicio_3.Resources.resources
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\obj\Debug\Ejercicio 3.vbproj.GenerateResource.Cache
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\obj\Debug\Ejercicio 3.exe
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\obj\Debug\Ejercicio 3.xml
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 3\Ejercicio 3\obj\Debug\Ejercicio 3.pdb

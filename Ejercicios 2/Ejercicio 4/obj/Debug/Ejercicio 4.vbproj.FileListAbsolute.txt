@@ -1,0 +1,10 @@
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.exe.config
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.exe
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.pdb
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\bin\Debug\Ejercicio 4.xml
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.vbprojResolveAssemblyReference.cache
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio_4.Resources.resources
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.vbproj.GenerateResource.Cache
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.exe
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.xml
+C:\Users\SlingerRiperxD\Documents\Visual Studio 2015\Projects\Ejercicio 4\Ejercicio 4\obj\Debug\Ejercicio 4.pdb

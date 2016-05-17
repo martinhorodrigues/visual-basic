@@ -1,0 +1,10 @@
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe.config
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.exe
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.xml
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio 1.pdb
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.exe
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.pdb
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\bin\Debug\Ejercicio 1.xml
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicios.vbprojResolveAssemblyReference.cache
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicio_1.Resources.resources
+c:\users\slingerriperxd\documents\visual studio 2015\Projects\Ejercicio 1\Ejercicio 1\obj\Debug\Ejercicios.vbproj.GenerateResource.Cache
